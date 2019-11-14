@@ -1,1 +1,1 @@
-# [your username].github.io
+# [lincoln-middle-coding-2].github.io
