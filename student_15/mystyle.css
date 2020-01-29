@@ -1,1 +1,8 @@
-
+header {
+  font-family: sans-serif;
+  margin-left: 10px;
+  width: 640px;
+}
+nav ul {
+  clear: both;
+  
