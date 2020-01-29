@@ -16,3 +16,6 @@ nav li {
 a:link {
   text decoration: none;
 }
+a:hover {
+  color:green;
+}
