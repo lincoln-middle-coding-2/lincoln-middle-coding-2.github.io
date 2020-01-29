@@ -1,1 +1,18 @@
-
+header {
+  font-family: fondamento;
+  color: blue;
+  font-weight: bold;
+  margin: 10px;
+  width: 64px;
+}
+nav ul {
+  clear: both;
+}
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 40px;
+}
+a:link {
+ text-decoration: none; 
+}
