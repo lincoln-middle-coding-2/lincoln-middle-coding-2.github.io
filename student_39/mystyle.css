@@ -1,1 +1,16 @@
-
+header {
+font-family: sans-serif;
+  margin-left: 10px;
+  width: 648px;
+}
+nav ul {
+  clear: both;
+}
+ nav li{
+  list-style-type: none;
+display: inline;
+   padding-left: 40px;
+}
+a:link {
+  text-decoration: none;
+}
