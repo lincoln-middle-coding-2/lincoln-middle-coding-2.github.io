@@ -19,3 +19,10 @@ a:link {
 a:hover {
  color: green; 
 }
+h2, p {
+  font-family: fondamento;
+  color: blue;
+  font-weight: bold;
+  margin: 10px;
+  width: 64px;
+}
