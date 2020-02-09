@@ -1,12 +1,36 @@
 <html>
   <style>
-.marginauto {
-    margin: 10px auto 20px;
-    display: block;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>
-<img src="https://s.wsj.net/public/resources/images/OB-UI399_ilabor_G_20120828095407.jpg"alt="rights" height="400" width="400">
-<div>
-    <img class="marginauto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgG0X7nSQravuuSynw2LFfgDHm9L4nbGuq1o78_WNHpoNJnA-O" alt="centered image" />
+<div class="row">
+  <div class="column">
+  <img src="https://s.wsj.net/public/resources/images/OB-UI399_ilabor_G_20120828095407.jpg"alt="rights" height="400" width="400">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgG0X7nSQravuuSynw2LFfgDHm9L4nbGuq1o78_WNHpoNJnA-O">
+  </div>
+  <div class="column">
+    <img src="https://theforeveryears.files.wordpress.com/2016/06/child-labour.jpg">
+  </div>
 </div>
+  
 </html>
