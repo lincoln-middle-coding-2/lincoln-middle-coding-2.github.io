@@ -2,26 +2,19 @@
   <head>
     <link rel ="stylesheet" type = "text/css" href = "mystyle.css">
     <style>
+      h2 {
+        text-align: center
       .column {
         float: left;
         padding: 10px;
         height: 300px;
+        background-color: aliceblue;
       }
       .left {
-        width: 75%;
+        width: 30%;
       }
       .right {
-        width: 25%;
-        border-left-style: inset;
-      }
-      .row: after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-     .right p {
-       background-color: pink;
-       padding: 20px;
+        width: 60%;
       }
     </style>
   </head>
@@ -33,7 +26,19 @@
       <h1> The Coding School </h1>
     </header>
     <nav>
+      <h2> About Me </h2>
       <div class = "about">
+        <div class = "column left" style = "background-color: blue;">
+          <img src = "https://cdn.getyourguide.com/img/tour_img-1485925-148.jpg">
+          <h3> Patrik the greatest person </h3>
+          <p> Creator </p>
+        </div>
+        <div class = "column right" style = "background-color: green;">
+          <h3> What's Shakin everyone? </h3>
+          <p> My name is Patrik. I was born in finland and I speak Finnish fluently. <br>
+          </p>
+       </div>                                                            
+      </div>
       <ul>
         <li><a href = "index.html">Home</a></li>
         <li><a href = "abouttemp.html">About Us</a></li>
@@ -41,5 +46,4 @@
         <li><a href = "contact.html">Contact Us</a></li>
       </ul>
     </nav>
-    </html
-
+    </html>
