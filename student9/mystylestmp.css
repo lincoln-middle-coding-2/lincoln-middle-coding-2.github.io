@@ -11,6 +11,6 @@ list-style-type: none;
   pading-left: 40px;
 }
 h1{ 
- text-color: red;
-  font-family:georgia;
+ text-color: black;
+  font-family:georgia, lora,sans-serif ;
 }
