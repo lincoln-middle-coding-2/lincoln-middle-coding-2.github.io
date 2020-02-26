@@ -6,10 +6,9 @@
     <label>Person 1:</label><input type = "text">
     <label>Person 2:</label><input type = "text">
     <button onClick = "click()">Go!</button>
-    <span id = "result"></span>
+    <span id = "result">Test</span>
     <script>
       function click() {
-        document.getElementById("result").style.display = "block";
         var randomNumber = Math.floor(Math.random() * 101);
         document.getElementById("result").innerHTML = randomNumber + "%";
       }
