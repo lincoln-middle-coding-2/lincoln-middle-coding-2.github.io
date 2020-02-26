@@ -10,7 +10,8 @@
     <script>
       function click() {
         document.getElementById("result").style.display = "block";
-        document.getElementById("result").innerHTML = Math.Floor(Math.Random() * 101) + "%";
+        var randomNumber = Math.floor(Math.random() * 101);
+        document.getElementById("result").innerHTML = randomNumber + "%";
       }
       
     </script>
